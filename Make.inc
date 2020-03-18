@@ -1180,7 +1180,7 @@ RPATH_ENABLE_FLAG := -Wl,-z,origin
 endif
 
 define rpath_link
--Wl,-rpath='$(1)' $(RPATH_ENABLE_FLAG)
+-Wl,-rpath,'$(1)' $(RPATH_ENABLE_FLAG)
 endef
 endif
 
